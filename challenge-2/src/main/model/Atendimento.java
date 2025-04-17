@@ -3,7 +3,9 @@ package main.model;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Atendimento {
+import main.model.interfaces.IAtendimento;
+
+public class Atendimento implements IAtendimento {
     private LocalDate data;
     private String tipo;
     private String profissionalResponsavel;

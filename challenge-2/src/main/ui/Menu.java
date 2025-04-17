@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Sistema {
+import main.model.interfaces.ISistema;
+
+public class Sistema implements ISistema {
     private List<Pessoa> pessoas;
 
     public Sistema() {

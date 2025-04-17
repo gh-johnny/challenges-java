@@ -3,7 +3,9 @@ package main.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pessoa {
+import main.model.interfaces.IPessoa;
+
+public class Pessoa implements IPessoa {
     private String nome;
     private int idade;
     private String tipoDeficiencia;

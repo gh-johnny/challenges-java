@@ -5,7 +5,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Campeonato {
+import main.model.ICampeonato;
+
+public class Campeonato implements ICampeonato {
     private String nome;
     private List<Time> times;
     private List<Partida> partidas;

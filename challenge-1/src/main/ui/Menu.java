@@ -8,7 +8,9 @@ import main.model.Time;
 import java.util.List;
 import java.util.Scanner;
 
-public class Menu {
+import main.ui.IMenu;
+
+public class Menu implements IMenu {
     private Scanner scanner;
     private Campeonato campeonato;
 
